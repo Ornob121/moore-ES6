@@ -5,9 +5,9 @@ class Student {
     group;
     institute = 'M A Reza College'
     dress = 'blue'
-    constructor (name, student, id, group){
+    constructor (name, studentOf, id, group){
         this.name = name;
-        this.class = student;
+        this.class = studentOf;
         this.id = id;
         this.group = group;
     }
